@@ -1,0 +1,713 @@
+body {
+   font-family: 'Montserrat' !important;
+}
+
+img {
+   width: 100%;
+}
+
+.navigation{
+   background-color: rgb(16, 16, 58);
+   padding: 10px 130px !important;
+}
+.navigation a:hover{
+   text-decoration: underline;
+}
+.navigation-link {
+   color: white !important;
+   
+}
+.nav-connector {
+    color: white !important;
+}
+.nav-links{
+   margin-left: 460px;
+}
+#dropdown-link {
+   color: black !important;
+   font-weight: 600 !important;
+}
+
+.header-text {
+   background-image: url(/img/benz\ \(1\).jpg);
+   height: 450px;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+}
+
+.header-text h1 {
+   color: white;
+   text-align: center;
+   padding: 200px 0 100px 0;
+   font-size: 45px;
+}
+
+.specification {
+   background-color: rgb(9, 9, 53);
+   padding: 100px 0 50px 0;
+}
+
+.specification-holder {
+   width: 80% !important;
+   margin: 0 auto !important;
+}
+
+.car-picture {
+   margin-left: -40px !important;
+}
+
+.car-content {
+   display: flex;
+   justify-content: center;
+}
+
+.car-image {
+   width: 120px;
+   margin: 11px 13px 0 0;
+   text-align: center;
+}
+
+.car-img {
+   width: 120px;
+   margin: 11px 10px 0 0;
+   text-align: center;
+}
+
+.car-img img {
+   width: 100%;
+   margin-left: -3px;
+}
+
+.car-pic {
+   width: 118px;
+   margin: 12px 0px 0 2px;
+   text-align: center;
+}
+
+.car-pic img {
+   width: 100%;
+}
+
+.car-image img {
+   width: 100%;
+}
+
+.specification-box {
+   background-color: rgb(30, 30, 151);
+   padding: 30px 20px;
+   height: 490px;
+   margin: -5px 0 0 -60px !important;
+}
+
+.specification-box h6 {
+   color: orangered;
+   margin-bottom: 35px;
+}
+
+.specification-container {
+   display: flex;
+   justify-content: space-between;
+   margin-top: -10px;
+   color: white;
+}
+
+.specification-container p {
+   margin-bottom: 27px;
+}
+
+.specification-link a {
+   text-decoration: none;
+   color: white;
+   background-color: orangered;
+   padding: 5px 20px;
+   display: block;
+   width: 180px;
+   text-align: center;
+}
+
+.latest-car {
+
+   padding: 100px 0px 0 0px;
+   background-color: rgb(15, 15, 75);
+   height: 510px;
+}
+
+.latest-car p {
+   color: white;
+}
+
+.latest-car-details {
+   margin: 0 auto !important;
+   width: 80% !important;
+}
+
+.latest-car-information h6 {
+   color: red;
+   margin: -40px 0 20px 0;
+}
+
+.latest-car-information span {
+   font-size: 30px;
+   color: white;
+   line-height: 25px;
+}
+
+.latest-car-information p {
+   margin: 20px 0 10px 0;
+}
+
+.latest-car-container {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   text-align: center;
+}
+
+.latest-car-container h6 {
+   color: white;
+   font-size: 12px;
+}
+
+.latest-car-container p {
+   margin: 20px 0 -5px 0;
+   font-size: 20px;
+}
+
+.latest-car-container span {
+   font-size: 10px;
+   color: red;
+}
+
+.interior {
+   padding: 0 0 90px 0;
+   background-image: url(/img/pexels-mike-bird-193999.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 570px;
+   padding: 120px 0 53px 500px;
+   color: white;
+}
+
+.interior-content h6 {
+   color: orangered;
+   padding: 10px 20px 10px 15px;
+   width: 100px;
+   text-align: center;
+   margin-bottom: 20px;
+}
+
+.interior-content span {
+   font-size: 45px;
+   color: white;
+   line-height: 27px;
+}
+
+.interior-content p {
+   font-size: 20px;
+   margin: 20px 0 40px 0;
+}
+
+.interior-link a {
+   color: white;
+   text-decoration: none;
+   background-color: orangered;
+   padding: 10px 20px;
+   display: block;
+   width: 220px;
+   margin-bottom: 70px;
+
+}
+
+.sticker {
+   padding-right: 7px;
+}
+
+.about-interior {
+   background-color: rgb(6, 6, 48);
+
+}
+
+.about-interior-holder {
+   margin: 0 auto !important;
+   width: 80% !important;
+   padding: 100px 0 !important;
+
+}
+
+.about-interior-box {
+   margin-top: 50px !important;
+   color: white;
+}
+
+.about-interior-box a {
+   background-color: red;
+   padding: 10px 30px;
+   color: white;
+   text-decoration: none;
+}
+
+.about-interior-box p {
+   margin: 20px 0 30px 0;
+}
+
+.about-interior-text {
+   margin-top: 30px !important;
+   color: white;
+}
+
+.about-interior-text p {
+   margin-bottom: 30px;
+}
+
+.about-interior-text a {
+   background-color: red;
+   padding: 10px 30px;
+   color: white;
+   text-decoration: none;
+}
+
+.about-interior-content {
+   margin-top: 30px !important;
+   color: white;
+}
+
+.about-interior-content a {
+   background-color: red;
+   padding: 10px 30px;
+   color: white;
+   text-decoration: none;
+}
+
+.about-interior-content p {
+   margin-bottom: 30px;
+}
+
+.exterior {
+   background-image: url(/img/bmw.png);
+   background-position: center;
+   height: 490px;
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding: 100px 0 100px 0px;
+}
+
+.exterior-holder {
+   margin-left: 70px;
+}
+
+.exterior-holder h6 {
+   color: orangered;
+   margin-bottom: 20px;
+}
+
+.exterior-holder span {
+   font-size: 35px;
+   color: white;
+   line-height: 30px;
+}
+
+.exterior-holder p {
+   color: white;
+   margin: 20px 0 40px 0;
+}
+
+.exterior-link a {
+   text-decoration: none;
+   color: white;
+   background-color: orangered;
+   padding: 10px 20px;
+}
+
+.exterior-link a:hover {
+   text-decoration: underline;
+}
+
+.font {
+   padding-right: 10px;
+}
+
+.about-exterior {
+   background-color: rgb(14, 14, 61);
+   padding: 100px 0 !important;
+}
+
+.about-exterior-data {
+   width: 80% !important;
+   margin: 0 auto !important;
+}
+
+.about-exterior-holder {
+   margin-top: 40px !important;
+   color: white;
+}
+
+.about-exterior-holder p {
+   margin: 10px 0 30px 0;
+}
+
+.about-exterior-holder a {
+   background-color: red;
+   text-decoration: none;
+   color: white;
+   padding: 10px 13px;
+}
+
+.about-exterior-container {
+   margin-top: 27px !important;
+   color: white;
+}
+
+.about-exterior-container p {
+   margin: 10px 0 30px 0;
+}
+
+.about-exterior-container a {
+   background-color: red;
+   text-decoration: none;
+   color: white;
+   padding: 10px 13px;
+}
+
+.about-exterior-details {
+   margin-top: 30px !important;
+   color: white;
+}
+
+.about-exterior-details p {
+   margin: 10px 0 30px 0;
+}
+
+.about-exterior-details a {
+   background-color: red;
+   text-decoration: none;
+   color: white;
+   padding: 10px 13px;
+}
+
+.appointment-box {
+   background-color: rgb(15, 15, 54);
+}
+
+.picture {
+   margin: 0 0 0 -11px;
+}
+
+label {
+   display: block !important;
+}
+
+.phone {
+   margin: -51px 0 0 220px;
+}
+
+input[type=tel] {
+   height: 29px;
+   margin-top: -20px;
+}
+
+input[type=email] {
+   width: 430px;
+}
+
+.payment {
+   margin: -54px 0 0 220px;
+}
+
+input[type=submit] {
+   width: 427px;
+   margin-top: 15px;
+}
+
+.appoointment-container {
+   color: white;
+   margin-top: 60px !important;
+}
+
+.appoointment-container p {
+   margin: 20px 0;
+}
+
+.company-information {
+   background-image: url(/img/deep.png);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding: 100px 150px !important;
+   color: white;
+
+}
+
+.company-data h5 {
+   letter-spacing: 10px;
+   font-weight: 800;
+}
+
+.address {
+   display: flex;
+}
+
+.company-connector {
+   display: block;
+   text-decoration: none;
+   background-color: orangered;
+   width: 250px;
+   color: white;
+   padding: 5px 20px;
+   text-align: center;
+}
+
+.company-link {
+   display: block;
+   text-decoration: none;
+   background-color: rgb(5, 5, 26);
+   width: 250px;
+   color: white;
+   padding: 5px 20px;
+   text-align: center;
+   margin-bottom: 15px;
+}
+
+.design {
+   border-bottom: 3px solid orangered;
+   width: 30px;
+   margin: 14px 0 14px 0;
+}
+
+.icons {
+   color: orangered;
+   padding-right: 7px;
+}
+
+.footer-details {
+   background-color: rgb(11, 11, 75);
+   padding: 20px 80px;
+}
+
+.footer-connect-container {
+   margin-right: -160px;
+}
+
+.footer-link {
+   text-decoration: none;
+   color: white;
+   padding-right: 15px;
+}
+
+.footer-connect {
+   color: orangered;
+   margin-left: 140px;
+}
+
+.footer-content {
+   background-color: rgb(10, 10, 51);
+   padding: 20px 80px;
+   color: white;
+}
+
+.footer-connector {
+   color: white;
+   margin-left: 10px;
+}
+
+.footer-copyright {
+   margin-right: -22px;
+}
+
+.footer-connector-holder {
+   margin: 0 -115px 0 0px;
+}
+
+@media screen and (max-width: 758px) {
+   .navigation{
+      padding: 10px 20px !important;
+   }
+   .nav-icon{
+      color: white;
+   }
+   .nav-links{
+      margin-left: 0px;
+   }
+   .latest-car {
+      padding: 100px 0px 0 0px;
+      background-color: rgb(15, 15, 75);
+      height: 750px;
+   }
+
+   .latest-car-details {
+      margin: 0 !important;
+      width: 100% !important;
+   }
+
+   .latest-car-content {
+      margin-top: 70px !important;
+   }
+
+   .specification-box {
+      width: 400px !important;
+      margin: 20px 0 0 0px !important;
+   }
+
+   .specification-link a {
+      width: 230px;
+   }
+
+   .specification-holder {
+      width: 100% !important;
+      margin: 0 !important;
+   }
+
+   .car-picture {
+      margin: 30px 0 0 0px !important;
+   }
+
+   .interior {
+      padding: 0 0 90px 0;
+      height: 640px;
+      padding: 60px 0 53px 20px;
+   }
+
+   .about-interior-holder {
+      width: 100% !important;
+      padding: 100px 20px !important;
+
+   }
+
+   .about-interior-box {
+      margin: 10px 0 30px 0 !important;
+   }
+
+   .about-interior-text {
+      margin: 0 0 20px 0;
+   }
+
+   .about-interior-content {
+      margin-top: 10px !important;
+   }
+
+   .exterior {
+      height: 490px;
+      padding: 50px 0 100px 0px;
+   }
+
+   .exterior-holder {
+      margin-left: 20px;
+   }
+
+   .about-exterior-data {
+      width: 100% !important;
+      margin: 0 !important;
+      padding: 0 20px;
+   }
+   .about-exterior-holder{
+      margin: 10px 0 30px 0 !important;
+   }
+   .about-exterior-container{
+      margin-bottom: 20px;
+   }
+   .about-exterior-picture{
+      margin-bottom: 80px;
+   }
+   .about-exterior-details{
+      margin-top: 10px !important;
+   }
+   .appointment-box {
+      margin: 20px 0;
+      padding: 30px 20px !important;
+   }
+   .picture {
+      margin: 0px;
+   }
+
+   .company-information {
+      padding: 100px 20px !important;
+      color: white;
+   }
+
+   .company-data {
+      margin-bottom: 20px;
+   }
+
+   .interior-picture {
+      margin-bottom: 80px;
+   }
+
+   .footer-details {
+      padding: 20px 10px !important;
+   }
+
+   .footer-connect-container {
+      margin-right: 0px;
+   }
+
+   .footer-connect {
+      margin: 20px 0 0 0;
+      display: block;
+   }
+
+   .footer-content {
+      background-color: rgb(10, 10, 51);
+      padding: 20px 10px;
+      color: white;
+   }
+
+   .footer-connector {
+      color: white;
+      margin-left: 10px;
+   }
+
+   .footer-copyright {
+      margin-right: 0px;
+   }
+
+   .footer-connector-holder {
+      margin: 0 0px 0 -20px;
+   }
+
+   .company-details-container {
+      margin-bottom: 20px;
+   }
+
+
+}
+@media screen and (max-width: 414px) {
+   .phone {
+      margin: 11px 0 0 0px;
+   }
+   
+   input[type=tel] {
+      height: 29px;
+      /* margin-top: -20px; */
+   }
+   
+   input[type=email] {
+      width: 207px;
+   }
+   
+   .payment {
+      margin: 11px 0 0 0px;
+   }
+   .email{
+      margin-top: -10px;
+   }
+   .car{
+      margin-top: -10px;
+   }
+   .note{
+      margin-top: -10px;
+   }
+   .submit{
+      /* margin-top: -20px !important; */
+   }
+   input[type=submit] {
+      width: 207px;
+      margin-top: -15px !important;
+      display: block;
+   }
+   
+   .appoointment-container {
+      color: white;
+      margin-top: 60px !important;
+   }
+}

@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- F0NT FAMILY -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&family=Roboto:ital,wght@0,300;0,400;1,300;1,400&display=swap"
+        rel="stylesheet">
+
+    <!-- NORMALIZE.CSS -->
+    <link rel="stylesheet" href="/css/normalize.css">
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- BOOST STRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"
+        defer></script>
+
+    <!-- AUTOCARS.CSS -->
+    <link rel="stylesheet" href="/css/autocars.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auto Kit</title>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+
+        
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid navigation">
+              <a class="navbar-brand navigation-link" href="index.html">BELLE</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="nav-icon"><i class="fa-solid fa-bars fa-xl"></i></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav-links">
+                  <li class="nav-item">
+                    <a class="nav-link active nav-connector" aria-current="page" href="index.html">HOME</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link nav-connector" href="aboutus.html">ABOUT US</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link nav-connector" href="contact-us.html">CONTACT US</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link nav-connector" href="service.html">SERVICE</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link nav-connector" href="team.html">TEAM</a>
+                  </li>
+                  <li class="nav-item dropdown ">
+                    <a class="nav-link dropdown-toggle nav-connector" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      PAGES
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" id="dropdown-link" href="details.html">DETAILS</a></li>
+                      <li><a class="dropdown-item" id="dropdown-link" href="cars.html">CAR LISTING</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+    </header>
+
+    <!-- MAIN -->
+    <main>
+
+        <!-- SECTION -->
+        <section class="carousel-content">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+                        aria-label="Slide 5"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active content" data-bs-interval="3000">
+                        <img src="img/moto4.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block carousel-text">
+                            <h4>WELCOME</h4>
+                            <p>Get a smart car like you. Wonderful exprience provider four-wheelers.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item content" data-bs-interval="3000">
+                        <img src="img/moto2.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block carousel-text">
+                            <h4>WELCOME</h4>
+                            <p>Get a smart car like you. Wonderful exprience provider four-wheelers.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item content" data-bs-interval="3000">
+                        <img src="img/moto3.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block carousel-text">
+                            <h4>WELCOME</h4>
+                            <p>Get a smart car like you. Wonderful exprience provider four-wheelers.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item content" data-bs-interval="3000">
+                        <img src="img/car-image.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block carousel-text">
+                            <h4>WELCOME</h4>
+                            <p>Get a smart car like you. Wonderful exprience provider four-wheelers.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item content" data-bs-interval="3000">
+                        <img src="img/benz-pic.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-md-block carousel-text carousel-caption">
+                            <h4>WELCOME</h4>
+                            <p>Get a smart car like you. Wonderful exprience provider four-wheelers.</p>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+        </section>
+        <!-- <section class="content">  
+            <h6>WELCOME</h6>
+            <p>Get a smart car <br> like you.</p>
+            <span>Wonderful exprience provider <br> four-wheelers</span>
+            <a href="#">Discover More</a>
+        </section>-->
+
+        <section class=" container-fluid about-content">
+            <div class="row justify-content-evenly about-information">
+
+                <div class=" col-md-6 about-image">
+                    <img src="img/pexels-mike-bird-116675.jpg" alt="">
+                </div>
+                <div class=" col-md-5 about-text">
+                    <h6>ABOUT US</h6>
+                    <span>A New Way To Buy Car <br> Safetly</span>
+                    <p>Lorem ipsum dolor sit, amet consectetur <br> adipisicing elit. Consectetur corporis <br>
+                        similique voluptatibus quas in hic quisquam <br>reiciendis, dicta temporibus odit.</p>
+                    <div class=" about-container">
+                        <div class="about-box">
+                            <i class="fa-solid fa-user-group icon"></i>
+                            <p>365<span>+</span></p>
+                            <h6>Expertise</h6>
+                        </div>
+                        <div class="about-box">
+                            <i class="fa-solid fa-user-group icon"></i>
+                            <p>7,215<span>+</span></p>
+                            <h6>Happy Customer</h6>
+                        </div>
+                        <div class="about-box">
+                            <i class="fa-solid fa-car icon"></i>
+                            <p>8,271<span>+</span></p>
+                            <h6>Car Sold</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION -->
+        <section class=" container-fluid about-car">
+
+            <div class="car-text">
+                <h4>Let's Get New Ride</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto autem qui</p>
+            </div>
+            <div class=" row justify-content-evenly car-content">
+                <div class=" col-md-5 car-details">
+                    <img src="img/bmw 0.jpg" alt="">
+                    <div class="car-feature">
+                        <h5>Looking For New Car?</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, expedita.</p>
+                        <a class="car-link" href="#">View Listing</a>
+                    </div>
+                </div>
+                <div class=" col-md-5 car-details-holder">
+                    <img src="img/side-view.jpg" alt="">
+                    <div class="car-feature">
+                        <h5>Looking For Used Car?</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Perspiciatis, expedita.</p>
+                        <a class="car-link" href="#">View Listing</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION -->
+        <section class=" container-fluid latest-cars">
+
+            <div class=" row justify-content-evenly latest-car-holder">
+                <div class="col-md-9">
+                    <h4>Latest Listing</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas nihil provident</p>
+                </div>
+                <div class="col-md-3 car-connector">
+                    <a href="#">View More</a>
+                </div>
+            </div>
+            <div class="row justify-content-evenly">
+                <div class=" col-md-4">
+                    <img src="img/pexels-garvin-st-villier-3972755.jpg" alt="">
+                    <div class="latest-car-container">
+                        <h5>Ferrari V12</h5>
+                        <div class="latest-car-details">
+                            <div>
+                                <p>MSRP</p>
+                            </div>
+                            <div>
+                                <p> $324,734 </p>
+                            </div>
+                        </div>
+                        <div class="latest-car-details">
+                            <div>
+                                <p>Net Price</p>
+                            </div>
+                            <div>
+                                <span>
+                                    $303,574
+                                </span>
+                            </div>
+                        </div>
+                        <div class="latest-car-information">
+                            <div>
+                                <p><i class="fa-solid fa-gauge-simple sticker"></i>7123km</p>
+                                <p><i class="fa-solid fa-gauge sticker"></i>Automatic</p>
+                                <p><i class="fa-solid fa-car sticker"></i>Autogas</p>
+                            </div>
+                            <div>
+                                <a href="#">Contact Us</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <img src="img/pexels-mike-bird-241316.jpg" alt="">
+                    <div class="latest-car-container">
+                        <h5>Mecerdes AMG</h5>
+                        <div class="latest-car-details">
+                            <div>
+                                <p>MSRP</p>
+                            </div>
+                            <div>
+                                <p> $624,734 </p>
+                            </div>
+                        </div>
+                        <div class="latest-car-details">
+                            <div>
+                                <p>Net Price</p>
+                            </div>
+                            <div>
+                                <span>
+                                    $603,574
+                                </span>
+                            </div>
+                        </div>
+                        <div class="latest-car-information">
+                            <div>
+                                <p><i class="fa-solid fa-gauge-simple sticker"></i>7123km</p>
+                                <p><i class="fa-solid fa-gauge sticker"></i>Automatic</p>
+                                <p><i class="fa-solid fa-car sticker"></i>Autogas</p>
+                            </div>
+                            <div>
+                                <a href="#">Contact Us</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <img src="img/pexels-erik-mclean-4674347.jpg" alt="">
+                    <div class="latest-car-container">
+                        <h5>Ford GT</h5>
+                        <div class="latest-car-details">
+                            <div>
+                                <p>MSRP</p>
+                            </div>
+                            <div>
+                                <p> $224,734 </p>
+                            </div>
+                        </div>
+                        <div class="latest-car-details">
+                            <div>
+                                <p>Net Price</p>
+                            </div>
+                            <div>
+                                <span>
+                                    $203,574
+                                </span>
+                            </div>
+                        </div>
+                        <div class="latest-car-information">
+                            <div>
+                                <p><i class="fa-solid fa-gauge-simple sticker"></i>7123km</p>
+                                <p><i class="fa-solid fa-gauge sticker"></i>Automatic</p>
+                                <p><i class="fa-solid fa-car sticker"></i>Autogas</p>
+                            </div>
+                            <div>
+                                <a href="#">Contact Us</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-evenly">
+                    <div class="col-md-4">
+                        <img src="img/pexels-mike-bird-2365572.jpg" alt="">
+                        <div class="latest-car-container">
+                            <h5>Benz AMG</h5>
+                            <div class="latest-car-details">
+                                <div>
+                                    <p>MSRP</p>
+                                </div>
+                                <div>
+                                    <p> $624,734 </p>
+                                </div>
+                            </div>
+                            <div class="latest-car-details">
+                                <div>
+                                    <p>Net Price</p>
+                                </div>
+                                <div>
+                                    <span>
+                                        $603,574
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="latest-car-information">
+                                <div>
+                                    <p><i class="fa-solid fa-gauge-simple sticker"></i>7123km</p>
+                                    <p><i class="fa-solid fa-gauge sticker"></i>Automatic</p>
+                                    <p><i class="fa-solid fa-car sticker"></i>Autogas</p>
+                                </div>
+                                <div>
+                                    <a href="#">Contact Us</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="img/pexels-spicy-photographer-7387470.jpg" alt="">
+                        <div class="latest-car-container">
+                            <h5>BMW Z4</h5>
+                            <div class="latest-car-details">
+                                <div>
+                                    <p>MSRP</p>
+                                </div>
+                                <div>
+                                    <p> $524,734 </p>
+                                </div>
+                            </div>
+                            <div class="latest-car-details">
+                                <div>
+                                    <p>Net Price</p>
+                                </div>
+                                <div>
+                                    <span>
+                                        $503,574
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="latest-car-information">
+                                <div>
+                                    <p><i class="fa-solid fa-gauge-simple sticker"></i>7123km</p>
+                                    <p><i class="fa-solid fa-gauge sticker"></i>Automatic</p>
+                                    <p><i class="fa-solid fa-car sticker"></i>Autogas</p>
+                                </div>
+                                <div>
+                                    <a href="#">Contact Us</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" col-md-4">
+                        <img src="img/pexels-s-von-hoerst-2676096.jpg" alt="">
+                        <div class="latest-car-container">
+                            <h5>Toyota GR86</h5>
+                            <div class="latest-car-details">
+                                <div>
+                                    <p>MSRP</p>
+                                </div>
+                                <div>
+                                    <p> $124,734 </p>
+                                </div>
+                            </div>
+                            <div class="latest-car-details">
+                                <div>
+                                    <p>Net Price</p>
+                                </div>
+                                <div>
+                                    <span>
+                                        $103,574
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="latest-car-information">
+                                <div>
+                                    <p><i class="fa-solid fa-gauge-simple sticker"></i>7123km</p>
+                                    <p><i class="fa-solid fa-gauge sticker"></i>Automatic</p>
+                                    <p><i class="fa-solid fa-car sticker"></i>Autogas</p>
+                                </div>
+                                <div>
+                                    <a href="#">Contact Us</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+        </section>
+
+        <!-- SECTION -->
+        <section class="promo-offer-container">
+            <div class="promo-offer">
+                <h6>PROMO</h6>
+                <span>So it's time for a <br> new ride.</span>
+                <p>Special offer for new arrival car. <br> Discount up to 15%</p>
+                <div>
+                    <a href="#">CONTACT US</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION -->
+        <section class="container-fluid about-exprience">
+            <div class="row justify-content-evenly about-exprience-holder">
+                <div class="col-md-5 about-exprience-container">
+                    <h6>WHY CHOOSE US</h6>
+                    <span>15 Years of <br> Experienced</span>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing <br> elit. Perspiciatis, nemo.</p>
+                    <div class="about-exprience-pack">
+                        <div>
+                            <p>POWER <br> XR2 <br> MODULE</p>
+                        </div>
+                        <div>
+                            <span>Certified Auto Service</span>
+                            <p>Lorem ipsum dolor sit amet consectetur</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <div class=" row justify-content-evenly about-exprience-content-holder">
+                        <div class=" col-md-5 about-exprience-data">
+                            <div>
+                                <i class="fa-solid fa-car-battery logo"></i>
+                            </div>
+                            <span>Expert Mechanics</span>
+                            <p>Lorem ipsum dolor sit, amet <br> consectetur adipisicing elit.</p>
+                        </div>
+                        <div class=" col-md-5 about-exprience-data">
+                            <div>
+                                <i class="fa-solid fa-coins logo"></i>
+                            </div>
+                            <span>Reasonable Price</span>
+                            <p>Lorem ipsum dolor sit, amet <br> consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                    <div class=" row justify-content-evenly about-exprience-content-holder">
+                        <div class=" col-md-5 about-exprience-data">
+                            <div>
+                                <i class="fa-solid fa-gauge-high logo"></i>
+                            </div>
+                            <span>Fast Work</span>
+                            <p>Lorem ipsum dolor sit, amet <br> consectetur adipisicing elit.</p>
+                        </div>
+                        <div class="col-md-5 about-exprience-data">
+                            <div>
+                                <i class="fa-solid fa-building logo"></i>
+                            </div>
+                            <span>Trust Company</span>
+                            <p>Lorem ipsum dolor sit amet <br> consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION -->
+        <section class=" container-fluid testimonial">
+            <div class="row ">
+                <div class="col-md-6 testimonial-image">
+                    <img src="img/photo2.png" alt="">
+                </div>
+                <div class=" col-md-6 testimonial-container">
+                    <h6>TESTINONIAL</h6>
+                    <span>What They Say</span>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br> Cumque facere voluptas rerum odio
+                        neque</p>
+                    <div class="testimonial-information">
+                        <div><img class="star" src="img/icon-star.svg" alt=""><img class="star" src="img/icon-star.svg"
+                                alt=""><img class="star" src="img/icon-star.svg" alt=""><img class="star"
+                                src="img/icon-star.svg" alt=""><img class="star" src="img/icon-star.svg" alt=""></div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia consequatur, dignissimos
+                            nisi cumque aliquam at, ad neque nobis corrupti nam blanditiis</p>
+                        <div class="testimonial-details">
+                            <div><img src="img/image-irene.jpg" alt=""></div>
+                            <div class="testimonial-data">
+                                <p>Lynn J Roberts</p>
+                                <span>Manager</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ARTICLE -->
+        <article class="container-fluid article">
+            <div class="row justify-content-evenly article-container">
+                <div class="col-md-9">
+                    <h6>UPDATE</h6>
+                    <p>Latest News & Article</p>
+                </div>
+                <div class="col-md-3">
+                    <a href="#">More Article</a>
+                </div>
+            </div>
+            <div class="row justify-content-evenly ">
+                <div class="col-md-4 article-image">
+                    <img src="img/pexels-damian-barczak-7460145.jpg" alt="">
+                    <div class="article-information">
+                        <div><a class="article-link" href="#">NEWS</a></div>
+                        <h5>The Second Most Popular Vehicle in America</h5>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad ipsam temporibus quod, id ab
+                            placeat ut, amet atque eum</p>
+
+                    </div>
+                </div>
+                <div class=" col-md-4 article-image">
+                    <img src="img/pexels-mike-bird-4056550.jpg" alt="">
+                    <div class="article-information">
+                        <div><a class="article-connector" href="#">STUDY CASE</a></div>
+                        <h5>4 Ways To Maximize the impact Of Your Stimulus Check</h5>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis asperiores sequi ipsam.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4 article-image">
+                    <img src="img/pexels-auto-records-10198873.jpg" alt="">
+                    <div class="article-information">
+                        <div><a class="article-connect" href="#">FEATURE</a></div>
+                        <h5>All Wheel Drive Vehicle That Might Surprise You</h5>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse ducimus ex reprehenderit fuga
+                            numquam.</p>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class=" container-fluid company-information">
+            <div class="row justify-content-evenly company-data">
+                <div class="col-md-4">
+                    <h5>AUT0KIT</h5>
+                </div>
+                <div class="col-md-8">
+                    <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet esse harum ipsum <br> fugit
+                        neque anim Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            <div class="row justify-content-evenly">
+                <div class="col-md-3 company-details-container">
+                    <h6>Head Office</h6>
+                    <div class="design"></div>
+                    <div class="address">
+                        <div><i class="fa-solid fa-location-dot icons"></i></div>
+                        <div>
+                            <p>Jin Compaka wang No 22, indonesia</p>
+                        </div>
+                    </div>
+                    <p><i class="fa-solid fa-envelope icons"></i>support@gmail.com</p>
+                    <p><i class="fa-solid fa-phone icons"></i>+642 822 2638</p>
+
+                </div>
+                <div class="col-md-2 company-details-container">
+                    <h6>Product</h6>
+                    <div class="design"></div>
+                    <p><i class="fa-solid fa-circle-chevron-right icons"></i>Benz</p>
+                    <p><i class="fa-solid fa-circle-chevron-right icons"></i>Ferrai</p>
+                    <p><i class="fa-solid fa-circle-chevron-right icons"></i>BMW</p>
+                    <p><i class="fa-solid fa-circle-chevron-right icons"></i>Rolls Royce</p>
+                    <p><i class="fa-solid fa-circle-chevron-right icons"></i>Trucks</p>
+                </div>
+                <div class="col-md-3 company-details-container">
+                    <h6>Support</h6>
+                    <div class="design"></div>
+                    <p><i class="fa-solid fa-circle-chevron-right icons"></i>HELP CENTER</p>
+                    <p><i class="fa-solid fa-circle-chevron-right icons"></i>CONTACT US</p>
+                    <p><i class="fa-solid fa-circle-chevron-right icons"></i>TICKET</p>
+                    <p><i class="fa-solid fa-circle-chevron-right icons"></i>COMMUNITY</p>
+                </div>
+                <div class="col-md-4">
+                    <div class="design"></div>
+                    <h6>Newsletter</h6>
+                    <p>Sign up for our newsletter to get <br> updated information, promo and insight <br> about
+                        automative</p>
+                    <div>
+                        <a class="company-link" href="#">Enter your email address</a>
+                        <a class="company-connector" href="#">Sign Up</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="container-fluid">
+            <div class="row justify-content-evenly footer-details">
+                <div class="col-md-10 footer-connect-container">
+                    <a class="footer-link" href="#">ABOUT US</a>
+                    <a class="footer-link" href="#">HISTORY</a>
+                    <a class="footer-link" href="#">CAREER</a>
+                    <a class="footer-link" href="#">CULTURE</a>
+                    <a class="footer-link" href="#">LEGAL NOTICE</a>
+                </div>
+                <div class="col-md-2"><a class="footer-connect" href="#"><i
+                            class="fa-solid fa-square-up-right fa-2xl"></i></a></div>
+            </div>
+            <div class="row justify-content-evenly footer-content">
+                <div class="col-md-9 footer-copyright">
+                    <p>Copyright <i class="fa-regular fa-copyright"></i> 2021 Autokit, All right reserved. Present by
+                        Kelvin</p>
+                </div>
+                <div class="col-md-3 footer-connector-holder">
+                    <a class="footer-connector" href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a class="footer-connector" href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a class="footer-connector" href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a class="footer-connector" href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a class="footer-connector" href="#"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

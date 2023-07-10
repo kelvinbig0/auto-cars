@@ -1,0 +1,498 @@
+body {
+   font-family: 'Montserrat' !important;
+}
+
+img {
+   width: 100%;
+}
+
+.navigation{
+   background-color: rgb(16, 16, 58);
+   padding: 10px 130px !important;
+}
+.navigation a:hover{
+   text-decoration: underline;
+}
+.navigation-link {
+   color: white !important;
+   
+}
+.nav-connector {
+    color: white !important;
+}
+.nav-links{
+   margin-left: 460px;
+}
+#dropdown-link {
+   color: black !important;
+   font-weight: 600 !important;
+}
+
+.header-text {
+   background-image: url(/img/pexels-casper-somia-13437259.jpg);
+   height: 300px;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   margin-top: 0px;
+}
+
+.header-text h1 {
+   color: white;
+   text-align: center;
+   padding: 130px 0 100px 0;
+   font-size: 40px;
+}
+
+.about-company {
+   padding: 100px;
+   background-color: rgb(15, 15, 75);
+   height: 560px;
+   color: white;
+
+}
+
+.about-company-box {
+   width: 80% !important;
+   margin: 0 auto !important;
+
+}
+
+.about-container {
+   display: flex;
+   align-items: center;
+}
+
+.about-container p {
+   margin-top: 1px;
+}
+
+.about-company-container h6 {
+   color: red;
+   margin: -20px 0 20px 0 !important;
+}
+
+.about-company-container p {
+   margin-top: 20px;
+}
+
+.about-company-container span {
+   font-size: 30px;
+   line-height: 28px;
+}
+
+.about-box {
+   margin-left: 30px;
+   text-align: center;
+}
+
+.about-box p {
+   font-size: 20px;
+   margin-top: 0;
+}
+
+.about-box span {
+   font-size: 15px;
+}
+
+.about-box h6 {
+   color: white;
+   font-size: 10px;
+   margin-top: -16px;
+}
+
+.icon {
+   color: red;
+}
+
+.our-story {
+   background-image: url(/img/Urus.jpg);
+   height: 500px;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding: 50px 0 150px 680px;
+}
+
+.our-story h6 {
+   color: orangered;
+   margin: 24px 0 20px 0;
+}
+
+.our-story span {
+   font-size: 45px;
+   color: white;
+   line-height: 40px;
+}
+
+.our-story p {
+   color: white;
+   margin-top: 20px;
+}
+
+.about-exprience {
+   padding: 100px 0px 100px 0px;
+   background-color: rgb(8, 8, 37);
+   color: white;
+}
+
+.about-exprience-container h6 {
+   color: red;
+}
+
+.about-exprience-container p {
+   margin-top: 14px;
+}
+
+.about-exprience-holder {
+   width: 80% !important;
+   margin: 0 auto !important;
+}
+
+.about-exprience-box {
+   display: flex;
+   justify-content: space-around;
+   margin-top: 80px;
+   font-size: 12px;
+}
+
+.about-exprience-box span {
+   color: red;
+}
+
+.about-exprience-box p {
+   margin: 0;
+}
+
+.about-exprience-information {
+   display: flex;
+   background-color: orange;
+   padding: 15px 27px 15px 30px !important;
+   margin-bottom: 15px;
+   width: 450px;
+}
+
+.about-exprience-details {
+   display: flex;
+   background-color: rgb(15, 15, 70);
+   padding: 15px 27px 15px 30px !important;
+   margin-bottom: 15px;
+   width: 450px;
+}
+
+.about-exprience-details p {
+   font-size: 12px;
+   margin-top: -5px;
+}
+
+.about-exprience-information p {
+   font-size: 12px;
+   margin-top: -5px;
+}
+
+.sticker {
+   color: red;
+   margin: 30px 20px 0 0px !important;
+}
+
+.team {
+   background-color: rgb(10, 10, 56);
+   color: white;
+   padding: 100px 0px;
+}
+
+.team-content-holder {
+   width: 80% !important;
+   margin: 0 auto !important;
+}
+
+.team-picture {
+   margin-right: 20px;
+}
+
+.team-picture img {
+   width: 100%;
+}
+
+.team-text h6 {
+   color: orangered;
+   margin-top: 10px;
+}
+
+.team-text p {
+   margin: 10px 0 15px 0;
+}
+
+.team-text span {
+   font-size: 30px;
+   color: white;
+   line-height: 30px;
+}
+
+.team-text a {
+   text-decoration: none;
+   color: white;
+   background-color: orangered;
+   padding: 5px 8px;
+}
+
+.team-content {
+   display: flex;
+}
+
+.team-container {
+   background-color: rgb(25, 25, 102);
+   padding: 13px 15px 10px 15px;
+}
+
+.logo {
+   padding: 0 10px;
+}
+
+.promo {
+   background-image: url(/img/photo.jpg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   color: white;
+   padding: 100px 0 100px 150px
+}
+
+.promo-offer span {
+   font-size: 40px;
+   font-weight: bold;
+   line-height: 40px;
+}
+
+.promo-offer h6 {
+   color: orangered;
+   margin-bottom: 20px;
+}
+
+.promo-offer p {
+   font-size: 20px;
+   margin: 20px 0 30px 0;
+   line-height: 25px;
+}
+
+.promo-offer a {
+   text-decoration: none;
+   background-color: orangered;
+   padding: 10px 15px;
+   color: white;
+}
+
+.company-information {
+   background-image: url(/img/deep.png);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding: 100px 150px !important;
+   color: white;
+
+}
+
+.company-data h5 {
+   letter-spacing: 10px;
+   font-weight: 800;
+}
+
+.address {
+   display: flex;
+}
+
+.company-connector {
+   display: block;
+   text-decoration: none;
+   background-color: orangered;
+   width: 250px;
+   color: white;
+   padding: 5px 20px;
+   text-align: center;
+}
+
+.company-link {
+   display: block;
+   text-decoration: none;
+   background-color: rgb(5, 5, 26);
+   width: 250px;
+   color: white;
+   padding: 5px 20px;
+   text-align: center;
+   margin-bottom: 15px;
+}
+
+.design {
+   border-bottom: 3px solid orangered;
+   width: 30px;
+   margin: 14px 0 14px 0;
+}
+
+.icons {
+   color: orangered;
+   padding-right: 7px;
+}
+
+.footer-details {
+   background-color: rgb(11, 11, 75);
+   padding: 20px 80px;
+}
+
+.footer-connect-container {
+   margin-right: -160px;
+}
+
+.footer-link {
+   text-decoration: none;
+   color: white;
+   padding-right: 15px;
+}
+
+.footer-connect {
+   color: orangered;
+   margin-left: 140px;
+}
+
+.footer-content {
+   background-color: rgb(10, 10, 51);
+   padding: 20px 80px;
+   color: white;
+}
+
+.footer-connector {
+   color: white;
+   margin-left: 10px;
+}
+
+.footer-copyright {
+   margin-right: -22px;
+}
+
+.footer-connector-holder {
+   margin: 0 -115px 0 0px;
+}
+
+@media screen and (max-width: 758px) {
+   .navigation{
+      padding: 10px 20px !important;
+   }
+   .nav-links{
+      margin-left: 0px;
+   }
+   .about-company {
+      padding: 40px 20px;
+      height: 560px;
+      height: 730px;
+
+   }
+
+   .about-company-box {
+      width: 100% !important;
+      margin: 0 !important;
+
+   }
+
+   .about-company-container {
+      margin-top: 40px !important;
+   }
+
+   .our-story {
+      height: 670px;
+      padding: 50px 0 0px 20px;
+   }
+   .about-exprience-holder {
+      width: 100% !important;
+      margin: 0 0 0 -10px !important;
+   }
+   
+   .about-exprience-box {
+      margin: 30px 0;
+   }
+   .about-exprience-details-box{
+      margin: 0 auto !important;
+   }
+   .team-content-holder {
+      width: 100% !important;
+      margin: 0 !important;
+   }
+   .team-container h5{
+      font-size: 18px;
+   }
+   .team-text  {
+      margin-bottom: 30px;
+   }
+   .promo {
+      padding: 100px 0 100px 20px
+   }
+   .company-information {
+      padding: 100px 20px !important;
+      color: white;
+   }
+   .company-data{
+      margin-bottom: 20px;
+   }
+   .footer-details {
+      padding: 20px 10px !important;
+   }
+   .footer-connect-container {
+      margin-right: 0px;
+   }
+   
+   .footer-connect {
+      margin: 20px 0 0 0;
+      display: block;
+   }
+   .footer-content {
+      background-color: rgb(10, 10, 51);
+      padding: 20px 10px;
+      color: white;
+   }
+   
+   .footer-connector {
+      color: white;
+      margin-left: 10px;
+   }
+   
+   .footer-copyright {
+      margin-right: 0px;
+   }
+   
+   .footer-connector-holder {
+      margin: 0 0px 0 -20px;
+   }
+   .company-details-container{
+      margin-bottom: 20px;
+   }
+
+}
+@media screen and (max-width: 414px) {
+   .navigation{
+      padding: 10px 20px !important;
+      width: 100% !important;
+   }
+   .nav-icon{
+      color: white;
+   }
+   .nav-links{
+      margin-left: 0px;
+   }
+   .about-exprience-information {
+      width: 100%;
+      
+   }
+   
+   .about-exprience-details {
+      width: 100%;
+   }
+   .about-company {
+   padding: 50px 0 150px 0 ;
+   height: 800px;
+
+}
+.team-container h5{
+   font-size: 15px !important;
+}
+.team-container p{
+   font-size: 12px !important;
+}
+}

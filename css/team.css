@@ -1,0 +1,322 @@
+body {
+    font-family: 'Montserrat' !important;
+}
+
+img {
+    width: 100%;
+}
+
+.navigation {
+    background-color: rgb(16, 16, 58);
+    padding: 10px 130px !important;
+}
+
+.navigation a:hover {
+    text-decoration: underline;
+}
+
+.navigation-link {
+    color: white !important;
+
+}
+
+.nav-connector {
+    color: white !important;
+}
+
+.nav-links {
+    margin-left: 460px;
+}
+
+#dropdown-link {
+    color: black !important;
+    font-weight: 600 !important;
+}
+
+.header-text {
+    background-image: url(/img/boss3.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.header-text h1 {
+    color: white;
+    text-align: center;
+    padding: 220px 0 100px 0;
+    font-size: 50px;
+}
+
+.about-team {
+    background-color: rgb(16, 16, 75);
+    padding: 100px 0px;
+    color: white;
+}
+
+.about-team-holder {
+    width: 80% !important;
+    margin: 0 auto !important;
+}
+
+.about-team-text h6 {
+    color: orangered;
+    margin: 60px 0 20px 0;
+}
+
+.about-team-text span {
+    font-size: 35px;
+    line-height: 25px;
+}
+
+.about-team-text p {
+    margin: 15px 0 35px 0;
+}
+
+.about-team-text a {
+    text-decoration: none;
+    color: white;
+    background-color: orangered;
+    padding: 7px 10px;
+}
+
+.team {
+    background-color: rgb(10, 10, 37);
+    padding: 50px 0;
+}
+
+.team-content h6 {
+    color: orangered;
+    text-align: center;
+
+}
+
+.team-content p {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.team-box {
+    margin: 0 auto 20px auto !important;
+    width: 70%;
+}
+
+.team-container {
+    background-color: rgb(13, 13, 78);
+    padding: 15px 0px 10px 20px;
+    color: white;
+}
+
+.team-container p {
+    font-size: 12px;
+}
+
+.join-company {
+    background-image: url(/img/team.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    padding: 60px 0 20px 200px;
+}
+
+.join-company h6 {
+    color: orangered;
+    margin-bottom: 14px;
+}
+
+.join-company span {
+    font-size: 40px;
+    color: white;
+    line-height: 42px;
+}
+
+.join-company p {
+    color: white;
+    font-size: 25px;
+    line-height: 25px;
+    margin: 20px 0 30px 0;
+}
+
+.join-company-link a {
+    color: white;
+    background-color: orangered;
+    padding: 8px 12px;
+    text-decoration: none;
+}
+
+.company-information {
+    background-image: url(/img/deep.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 150px !important;
+    color: white;
+
+}
+
+.company-data h5 {
+    letter-spacing: 10px;
+    font-weight: 800;
+}
+
+.address {
+    display: flex;
+}
+
+.company-connector {
+    display: block;
+    text-decoration: none;
+    background-color: orangered;
+    width: 250px;
+    color: white;
+    padding: 5px 20px;
+    text-align: center;
+}
+
+.company-link {
+    display: block;
+    text-decoration: none;
+    background-color: rgb(5, 5, 26);
+    width: 250px;
+    color: white;
+    padding: 5px 20px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.design {
+    border-bottom: 3px solid orangered;
+    width: 30px;
+    margin: 14px 0 14px 0;
+}
+
+.icons {
+    color: orangered;
+    padding-right: 7px;
+}
+
+.footer-details {
+    background-color: rgb(11, 11, 75);
+    padding: 20px 80px;
+}
+
+.footer-connect-container {
+    margin-right: -160px;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: white;
+    padding-right: 15px;
+}
+
+.footer-connect {
+    color: orangered;
+    margin-left: 140px;
+}
+
+.footer-content {
+    background-color: rgb(10, 10, 51);
+    padding: 20px 80px;
+    color: white;
+}
+
+.footer-connector {
+    color: white;
+    margin-left: 10px;
+}
+
+.footer-copyright {
+    margin-right: -22px;
+}
+
+.footer-connector-holder {
+    margin: 0 -115px 0 0px;
+}
+
+@media screen and (max-width:758px) {
+    .navigation {
+        padding: 10px 20px !important;
+    }
+    .nav-icon{
+        color: white;
+     }
+
+    .nav-links {
+        margin-left: 0px;
+    }
+
+    .about-team-holder {
+        width: 100% !important;
+        margin: 0 !important;
+    }
+
+    .about-team-text p {
+        margin: 15px 0 35px 0;
+    }
+
+    .team-box {
+        margin: 0 !important;
+        width: 100%;
+    }
+
+    .team-box-img {
+        margin-bottom: 20px;
+    }
+
+    .join-company {
+        height: 350px !important;
+        padding: 60px 0 20px 20px !important;
+    }
+
+
+    .company-information {
+        padding: 80px 20px !important;
+        color: white;
+    }
+
+    .company-data {
+        margin-bottom: 20px;
+    }
+
+    .footer-details {
+        padding: 20px 10px !important;
+    }
+
+    .footer-connect-container {
+        margin-right: 0px;
+    }
+
+    .footer-connect {
+        margin: 20px 0 0 0;
+        display: block;
+    }
+
+    .footer-content {
+        background-color: rgb(10, 10, 51);
+        padding: 20px 10px;
+        color: white;
+    }
+
+    .footer-connector {
+        color: white;
+        margin-left: 10px;
+    }
+
+    .footer-copyright {
+        margin-right: 0px;
+    }
+
+    .footer-connector-holder {
+        margin: 0 0px 0 -20px;
+    }
+
+    .company-details-container {
+        margin-bottom: 20px;
+    }
+
+
+}

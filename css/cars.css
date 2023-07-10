@@ -1,0 +1,432 @@
+body{
+   font-family: 'Montserrat' !important;
+}
+img {
+   width: 100%;
+}
+.navigation{
+   background-color: rgb(16, 16, 58);
+   padding: 10px 130px !important;
+}
+.navigation a:hover{
+   text-decoration: underline;
+}
+.navigation-link {
+   color: white !important;
+   
+}
+.nav-connector {
+    color: white !important;
+}
+.nav-links{
+   margin-left: 460px;
+}
+#dropdown-link {
+   color: black !important;
+   font-weight: 600 !important;
+}
+.header-text{
+    background-image: url(/img/garage.jpg);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.header-text h1{
+    color: white;
+    text-align: center;
+    padding: 130px 0 100px 0;
+    font-size: 50px;
+}
+.new-arrival{
+    background-color: rgb(17, 17, 92);
+    padding: 50px 0 30px 0;
+    display: flex;
+    justify-content: center;
+    height: 400px;
+}
+.new-arrival-container{
+   margin: 0 auto !important;
+   width: 80% !important;
+}
+.new-arrival-content {
+    position: relative;
+    margin: -172px 0 0px 0 !important;
+    color: white;
+    padding-left: 35px;
+}
+.new-arrival-information{
+    position: relative;
+    margin-top: -270px;
+    color: white;
+    padding-right: 35px;
+    text-align: right;
+}
+
+.new-arrival-link a{
+    color: white;
+    text-decoration: none;
+    background-color: orangered;
+    padding: 12px 10px;
+}
+.new-arrival-connector{
+    color: white;
+    padding: 12px 10px ;
+    text-decoration: none;
+    background-color: orangered; 
+}
+.new-arrival-content h1{
+    margin-bottom: 10px;
+}
+.new-arrival-content p{
+   margin-bottom: 20px;
+}
+.new-arrival-information h1{
+    margin: 20px 0 10px 0;
+}
+.new-arrival-information p{
+   margin: 0px 0 20px 0;
+}
+.car-connector a{
+   color: white;
+   background-color: orangered;
+   padding: 10px 10px;
+   text-decoration: none;
+   margin: 12px 0 0 86px;
+   display: block;
+   width: 60%;
+   text-align: center;
+}
+.latest-cars{
+   background-color: rgb(8, 8, 37);
+   padding: 50px 205px 50px 205px !important;
+   color: white;
+}
+.latest-car-details{
+   display: flex;
+   justify-content: space-between;
+   color: white;
+}
+.latest-car-container{
+   background-color: rgb(22, 22, 75);
+   padding: 5px 7px;
+   color: white;
+   margin-bottom: 20px;
+}
+.latest-car-details span{
+   background-color: orangered;
+   padding: 3px 7px;
+}
+.latest-car-information{
+   display: flex;
+   justify-content: space-between;
+   line-height: 4px;
+}
+.latest-car-information a{
+   display: inline-block;
+   text-decoration: none;
+   background-color: orangered;
+   padding: 10px 7px 10px 7px;
+   margin-top: 62px;
+   color: white;
+}
+.sticker{
+   margin-right: 6px;
+}
+.promo-offer-container{
+   background-image: url(/img/photo.jpg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+}
+.promo-offer{
+   width: 50%;
+   color: white;
+   padding: 100px 0 100px 150px;
+}
+.promo-offer span{
+   font-size: 40px;
+   font-weight: bold;
+   line-height: 28px;
+}
+.promo-offer h6{
+   color: orangered;
+}
+.promo-offer p{
+   font-size: 20px;
+   margin: 10px 0 20px 0;
+   line-height: 25px;
+}
+.promo-offer-container a{
+   text-decoration: none;
+   background-color: orangered;
+   padding: 5px 8px;
+   color: white;
+}
+.about-exprience{
+   background-color: rgb(8, 8, 37);
+   color: white;
+   padding: 100px 0;
+}
+.about-exprience-holder{
+  margin: 0 auto !important;
+  width: 80% !important;
+}
+
+.about-exprience-container h6{
+   color: red;
+}
+.about-exprience-container span{
+   font-size: 36px;
+   font-weight: bold;
+   line-height: 28px;
+}
+.about-exprience-container p{
+   margin: 10px 0 30px 0;
+   color: white;
+   line-height: 20px;
+}
+.about-exprience-pack{
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+}
+.about-exprience-pack span{
+   font-size: 12px;
+   color: red;
+   margin-left:50px ;
+}
+.about-exprience-pack p{
+   margin: 0 20px 0 50px ;
+   font-size: 12px;
+   line-height: 15px;
+}
+.logo{
+   color: red;
+}
+.about-exprience-data{
+   margin: 0 20px 20px 0;
+   background-color: rgb(11, 11, 78);
+   padding: 15px 15px;
+}
+.testimonial{
+   background-color: rgb(11, 11, 68);
+}
+.testimonial-image{
+  margin-left: -12px;
+}
+.testimonial-container{
+   padding: 40px 180px 0 0px;
+
+}
+.testimonial-container h6{
+   color: red;
+}
+.testimonial-container span{
+   font-size: 26px;
+   color: white;
+}
+.testimonial-container p{
+   color: white;
+}
+.testimonial-information{
+   background-color: rgb(7, 7, 46);
+   padding: 20px 20px;
+}
+.star{
+   padding: 0 10px 20px 0;
+   width: 30px;
+}
+.testimonial-details{
+   display: flex;
+   align-items: center;
+}
+.testimonial-details span{
+       color: red;
+       font-size: 12px;
+}
+.testimonial-details img{
+   width: 50px;
+   height:50px;
+   border-radius: 50%;
+}
+.testimonial-data{
+   margin-left: 10px;
+   line-height: 5px;
+}
+.company-information{
+   background-image: url(/img/deep.png);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding: 100px 150px !important;
+   color: white;
+}
+.company-data h5{
+   letter-spacing: 10px;
+  font-weight: 800;
+}
+.address{
+  display: flex;
+}
+.company-connector{
+    display: block;
+    text-decoration: none;
+    background-color: orangered;
+    width: 250px;
+    color: white;
+    padding: 5px 20px;
+    text-align: center;
+}
+.company-link{
+   display: block;
+   text-decoration: none;
+   background-color: rgb(5, 5, 26);
+   width: 250px;
+   color: white;
+   padding: 5px 20px;
+   text-align: center;
+   margin-bottom: 15px;
+}
+.design{
+  border-bottom: 3px solid orangered;
+  width: 30px;
+  margin: 14px 0 14px 0;
+}
+.icons{
+  color: orangered;
+  padding-right: 7px;
+}
+.footer-details {
+   background-color: rgb(11, 11, 75);
+   padding: 20px 80px;
+}
+
+.footer-connect-container {
+   margin-right: -160px;
+}
+
+.footer-link {
+   text-decoration: none;
+   color: white;
+   padding-right: 15px;
+}
+
+.footer-connect {
+   color: orangered;
+   margin-left: 140px;
+}
+
+.footer-content {
+   background-color: rgb(10, 10, 51);
+   padding: 20px 80px;
+   color: white;
+}
+
+.footer-connector {
+   color: white;
+   margin-left: 10px;
+}
+
+.footer-copyright {
+   margin-right: -22px;
+}
+
+.footer-connector-holder {
+   margin: 0 -115px 0 0px;
+}
+@media screen and (max-width: 758px){
+   .navigation{
+      padding: 10px 20px !important;
+   }
+   .nav-icon{
+      color: white;
+   }
+   .nav-links{
+      margin-left: 0px;
+   }
+  
+   .new-arrival{
+      height: 700px !important;
+   }
+   .new-arrival-container{
+      margin: 0 0 70px 0 !important;
+      width: 100% !important;
+   }
+   .new-arrival-image{
+      margin-bottom: 20px !important;
+   }
+   .latest-cars{
+      padding: 50px 20px 50px 20px !important;
+   }
+   .car-connector a{
+      margin: 8px 0 30px 0px;
+   }
+   .promo-offer{
+      padding: 50px 0 50px 20px;
+      width: 60%;
+   }
+   .about-exprience-holder{
+      margin: 0 !important;
+      width: 100% !important;
+    }
+    .about-exprience-data{
+      margin: 0 0px 20px 0;
+      padding: 15px 15px;
+      width: 57% !important;
+   }
+   .about-exprience-pack{
+      margin-bottom: 25px;
+   }
+   .testimonial{
+      padding: 50px 20px !important;
+   }
+   .testimonial-image{
+     margin-left: 0px;
+   }
+   .testimonial-container{
+      padding: 40px 0px 0 0px;
+   
+   }
+   .company-information {
+      padding: 100px 20px !important;
+      color: white;
+   }
+   .company-data{
+      margin-bottom: 20px;
+   }
+   .footer-details {
+      padding: 20px 10px !important;
+   }
+   .footer-connect-container {
+      margin-right: 0px;
+   }
+   
+   .footer-connect {
+      margin: 20px 0 0 0;
+      display: block;
+   }
+   .footer-content {
+      background-color: rgb(10, 10, 51);
+      padding: 20px 10px;
+      color: white;
+   }
+   
+   .footer-connector {
+      color: white;
+      margin-left: 10px;
+   }
+   
+   .footer-copyright {
+      margin-right: 0px;
+   }
+   
+   .footer-connector-holder {
+      margin: 0 0px 0 -20px;
+   }
+   .company-details-container{
+      margin-bottom: 20px;
+   }
+   
+
+}
